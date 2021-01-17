@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./CSS/navbar.css">	
+<link rel = "stylesheet" href = "./CSS/homestyle.css">
+
+<script>
+	
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+
+<script>
+function multiplyBy()
+{
+	num1 = document.getElementById("firstNumber").value;
+	num2 = document.getElementById("secondNumber").value;
+	document.getElementById("result").innerHTML = num1 * num2;
+}
+</script>
+				
+<script>
+function multBy()
+{
+	number1 = document.getElementById("1Number").value;
+	number2 = document.getElementById("2Number").value;
+	number3 = document.getElementById("3Number").value;
+	document.getElementById("res").innerHTML = number1 * number2 * number3;
+}
+</script>
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #4da6ff;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-family:courier; font-size:600%;" >JSS</h1>
+  <p style="font-family:courier; font-size:150%;"><b>Here to help you</b></p>
+</div>
+
+<div class="navbar">
+  <a href="index.html" style="font-family:courier; ">Home</a>
+  <a href="gallery.html" style="font-family:courier;">Gallery</a>
+  <a href="calloutform.html" style="font-family:courier;">Call Out Form</a>
+  <a href="contactform.html" style="font-family:courier;">Contact Us</a>
+</div>
+	
+		
+		<div id="wrapper">
+
+
+		<br>
+		<br>
+		
+			<main>
+				<div id="content">
+					
+					<div class="innertube">
+						  
+						  <div class="main">
+							
+							
+							<div class="container">
+								  <div style="text-align:center">
+									<h2 style="font-family:courier; font-size:250%;">Contact Us Form</h2>
+								  </div>
+								  <div class="row">
+									<div class="column">
+									  <img src="./img/IMG_8116.jpg" style="width:100%">
+									</div>
+									<div class="column">
+									  <form style="font-family:courier;"action="connect.php" method = "POST">
+										<label for="firstname">First Name</label>
+										<input style="font-family:courier;" type="text" id="firstname" name="firstname" placeholder="Your name.." required>
+										<label for="lastname">Last Name</label>
+										<input style="font-family:courier;" type="text" id="lastname" name="lastname" placeholder="Your last name.." required>
+										<label for="contactnumber">Contact Number</label>
+										<input style="font-family:courier;" type="text" id="contactnumber" name="contactnumber" placeholder="Your cobtact number.."  required>
+										<label style="font-family:courier;" for="email">Email Address</label>
+										<input style="font-family:courier;" type="text" id="email" name="email" placeholder="Your cobtact number.." pattern="^\S+@\S+\.\S+$" required>
+									
+										<label for="subject">Subject</label>
+										<textarea id="subject" name="subject" placeholder="Write something.." style="font-family:courier; height:170px"></textarea>
+										<input style="font-family:courier;" type="submit" value="Submit">
+									  </form>
+									</div>
+								  </div>
+								</div>
+
+							
+							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				</main>
+		<div class="main" style="font-family:courier;">Joe Security, Steelwork & Maintenance  Here to help you</div>    
+		<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3 style="font-family:courier;"><span>Joe Security, Steelwork & Maintenance</span></h3>
+ 
+		<p class="footer-links">
+		<a href="index.html" style="font-family:courier;">- Home -</a>
+		<a href="gallery.html" style="font-family:courier;">Gallery -</a>
+		<a href="calloutform.html" style="font-family:courier;">Call Out Form -</a>
+		<a href="contactform.html" style="font-family:courier;">Contact Us Form -</a>
+		</p>
+ 
+		<p class="footer-company-name" style="font-family:courier;">Joe Security, Steelwork & Maintenance &copy; 2020</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p style="font-family:courier;"><span>21 Jump Street</span> Edenvale, South Africa</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p style="font-family:courier;">+27 79 366 4564</p> 
+		<p style="font-family:courier;">+27 71 565 4554</p>
+		<p style="font-family:courier;">+27 11 356 4654</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p style="font-family:courier;"><a href="mailto:support@company.com">cryatalvt@telkomsa.net</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about" style="font-family:courier;">
+		<span>About the company</span>
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+ 
+		</div>
+ 
+		</div>
+ 
+		</footer>
+	
+	</body>
+</html>
